@@ -14,6 +14,7 @@
 		817E53A92336064000E1CA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817E53A82336064000E1CA87 /* Assets.xcassets */; };
 		817E53AC2336064000E1CA87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817E53AA2336064000E1CA87 /* LaunchScreen.storyboard */; };
 		817E53AF2336064000E1CA87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 817E53AE2336064000E1CA87 /* main.m */; };
+		817E53B723360AA500E1CA87 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817E53B623360AA500E1CA87 /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		817E53AB2336064000E1CA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		817E53AD2336064000E1CA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		817E53AE2336064000E1CA87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		817E53B523360AA500E1CA87 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		817E53B623360AA500E1CA87 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				817E539D2336063B00E1CA87 /* AppDelegate.m */,
 				817E539F2336063B00E1CA87 /* ViewController.h */,
 				817E53A02336063B00E1CA87 /* ViewController.m */,
+				817E53B523360AA500E1CA87 /* OneViewController.h */,
+				817E53B623360AA500E1CA87 /* OneViewController.m */,
 				817E53A22336063B00E1CA87 /* Main.storyboard */,
 				817E53A82336064000E1CA87 /* Assets.xcassets */,
 				817E53AA2336064000E1CA87 /* LaunchScreen.storyboard */,
@@ -145,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				817E53A72336063B00E1CA87 /* CeShi.xcdatamodeld in Sources */,
+				817E53B723360AA500E1CA87 /* OneViewController.m in Sources */,
 				817E53A12336063B00E1CA87 /* ViewController.m in Sources */,
 				817E53AF2336064000E1CA87 /* main.m in Sources */,
 				817E539E2336063B00E1CA87 /* AppDelegate.m in Sources */,
@@ -290,8 +296,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZT6WPA2YA3;
+				DEVELOPMENT_TEAM = UZ5984664L;
 				INFOPLIST_FILE = CeShi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +314,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZT6WPA2YA3;
+				DEVELOPMENT_TEAM = UZ5984664L;
 				INFOPLIST_FILE = CeShi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
